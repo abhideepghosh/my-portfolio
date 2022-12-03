@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {GiTrophyCup} from 'react-icons/gi';
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
 		            </article>
 
 		            <article className="about__card">
-		              <FiUsers className='about__icon'/>
+		              <GiTrophyCup className='about__icon'/>
 		              <h5>Top Performer</h5>
 		              <small>Consistently Ranked 1 In Newton Leaderboard</small>
 		            </article>
@@ -37,7 +37,7 @@ const About = () => {
 		              <small>5+ Completed</small>
 		            </article>
 		          </div>
-		          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minima minus alias, excepturi vel exercitationem delectus. A voluptatem qui temporibus corporis vitae itaque ea iste assumenda, error quis, optio beatae.</p>
+		          <p>I am Abhideep Ghosh, a Full Stack Web Developer. The languages I love to code in are HTML, CSS, JS and Java. I've worked on many React projects and lead few team projects in Newton. I've also taught students while being one of the leaders of Super 50 group in Newton.</p>
 		          <a href="#contact" className='btn btn-primary'>Let's talk</a>
 
 		        </div>
