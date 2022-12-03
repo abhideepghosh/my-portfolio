@@ -1,30 +1,54 @@
-nav{
-    background: rgba(0,0,0,0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 10;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+.container.testimonial__container {
+    width: 40%;
+    padding-bottom: 4rem;
 }
-nav a{
-    background: transparent;
-    padding: 0.9rem;
+
+.client__avatar {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
     border-radius: 50%;
-    display: flex;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.client__review {
     color: var(--color-light);
-    font-size: 1.1rem;
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
 }
-nav a:hover{
-    background: rgba(0,0,0,0.3);
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background-color: var(--color-primary);
+
 }
-nav a.active{
-    background: var(--color-primary);
-    color: var(--color-bg);
+
+/* ============MEDIA QUERIES( MEDIUM DEVICES )================ */
+@media screen and (max-width: 1024px) {
+    .container.testimonial__container {
+        width: 60%;
+    }
+
+
+}
+
+/* ============MEDIA QUERIES( SMALL DEVICES )================ */
+@media screen and (max-width: 600px) {
+    .container.testimonial__container {
+        width: var(--container-width-ms);
+    }
+    .client__review{
+        width: var(--container-width-ms);
+    }
+
+
 }
