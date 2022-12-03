@@ -56,8 +56,8 @@ const sendEmail = (e) => {
 
         {/* ========END CONTACT OPTION========== */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name" required/>
-          <input type="email" name="user_email" className="user" placeholder="Email" required/>
+          <input type="text" name="name" className="user"  placeholder="Name" required/>
+          <input type="email" name="email" className="user" placeholder="Email" required/>
           <textarea name="message" rows='7' className="user" placeholder="Message" required/>
           <button type="submit" value="Send" className="btn btn-primary">Send message</button>
           <span>{done && "Thanks for Contacting me"}</span>
