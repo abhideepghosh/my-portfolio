@@ -35,14 +35,14 @@ const sendEmail = (e) => {
           <div className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>test@test.com</h5>
-            <a href="mailto:text@text.com" target="_blank" rel="noreferrer">Send a message</a>
+            <h5>gabhiaf98@gmail.com</h5>
+            <a href="mailto:gabhiaf98@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </div>
         
           <div className="contact__option">
             <RiMessengerLine  className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>gabhiaf98@gmail.com</h5>
+            <h5>Abhideep Ghosh</h5>
             <a href="Https://m.me/abhideeprocks" target="_blank" rel="noreferrer">Send a message</a>
           </div>
         
