@@ -7,13 +7,13 @@ import { FiTwitter } from "react-icons/fi";
 const Footer = () => {
   return (
     <footer id="footer">
-      <a href="#contact" className="footer__logo">
+      <a href="#header" className="footer__logo">
         <FaCode />
       </a>
 
       <ul className="permalinks">
         <li>
-          <a href="#about">Home</a>
+          <a href="#header">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
