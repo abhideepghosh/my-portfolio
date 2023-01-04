@@ -49,8 +49,7 @@ const About = () => {
             believe in the power of programming to transform and improve the
             lives of people around the world. I really enjoy learning new things
             and connecting with people across a range of industries, so don't
-            hesitate to reach out if you'd like to get in touch. I've worked on
-            many React projects and led team projects in Newton.
+            hesitate to reach out if you'd like to get in touch.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
