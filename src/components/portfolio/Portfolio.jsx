@@ -11,11 +11,12 @@ const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
-      title: "Spotify Inspired Music Player - Using React.js And Redux Toolkit",
-      github: "https://github.com/abhideepghosh/spotify-clone-react",
-      demo: "https://spotify-clone-using-react.netlify.app/",
+      image: IMG6,
+      title: "CyberNotes - Note App For Cyberpunk Fans (MERN) ",
+      github: "https://github.com/abhideepghosh/CyberNotes",
+      demo: "https://cyber-notes.netlify.app/",
     },
+
     {
       id: 2,
       image: IMG2,
@@ -32,10 +33,10 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image: IMG4,
-      title: "Forkify - Using JavaScript, MVC Architectural Pattern",
-      github: "https://github.com/abhideepghosh/forkify-js",
-      demo: "https://forkify-webapp-js.netlify.app/",
+      image: IMG1,
+      title: "Spotify Inspired Music Player - Using React.js And Redux Toolkit",
+      github: "https://github.com/abhideepghosh/spotify-clone-react",
+      demo: "https://spotify-clone-using-react.netlify.app/",
     },
     {
       id: 5,
@@ -47,10 +48,10 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      image: IMG6,
-      title: "Dogeartclub Clone",
-      github: "https://github.com/abhideepghosh/dogeartclub-react",
-      demo: "https://dogeartclub-react.netlify.app/",
+      image: IMG4,
+      title: "Forkify - Using JavaScript, MVC Architectural Pattern",
+      github: "https://github.com/abhideepghosh/forkify-js",
+      demo: "https://forkify-webapp-js.netlify.app/",
     },
   ];
 
