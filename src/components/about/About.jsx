@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-// import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/move.gif";
 import { FaAward } from "react-icons/fa";
 import { GiTrophyCup } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,11 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            {/* <img src={ME} alt="About me" /> */}
-            <img
-              src="https://miro.medium.com/max/900/1*q99J7XLYVWgOt69E8IuXqw.gif"
-              alt="About me"
-            />
+            <img src={ME} alt="About me" />
           </div>
         </div>
         <div className="about__content">
